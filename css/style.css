@@ -1,0 +1,37 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+.container-principale{
+    height:100vh;
+}
+.container{
+    flex-direction:column;
+    display:flex;
+    height:100vh;
+    background-color:black;
+    flex-grow:1;
+}
+nav{
+    background-color: #222323;
+    color:white;
+}
+nav .nav-container{
+    height:50px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+}
+.nav-container ul{
+    list-style-type:none;
+    display:flex;
+    padding:0 15px;
+}
+.nav-container ul li{
+    padding:0 10px;
+}
+.nav-container ul.terza-lista li{
+    color:red;
+}
