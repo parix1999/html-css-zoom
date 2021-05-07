@@ -58,12 +58,12 @@ main .container-image{
     display:inline-block;
     color:black;
     font-size:14px;
-    padding:5px;
+    padding:2px 4px;
 }
 .container-image .textinside-2{
     color:black;
     font-size:14px;
-    padding:5px;
+    padding:2px 4px;
 }
 
 /* parte sotto con le icone */
