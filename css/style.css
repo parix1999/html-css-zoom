@@ -39,7 +39,6 @@ main .container-image{
 .container-image .pic-box{
     width:180px;
     height:120px;
-    border:1px solid white;
 }
 .container-image .centratura{
     width:100%;
@@ -47,7 +46,11 @@ main .container-image{
     flex-direction:row;
     justify-content:center;
 }
-
+.container-image .back-pic{
+    background-image: url("../img/51u0jXW+W0L._AC_.jpg");
+    background-size:cover;
+    background-position: center;
+}
 
 
 /* parte sotto con le icone */
