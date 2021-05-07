@@ -12,36 +12,24 @@ header{
     justify-content:flex-end;
     align-items:center;
     background-color:black;
+    color:white;
 }
 header .text-inte{
-    color:white;
     padding-right:20px;
+    display:inline-block;
 
 }
 header .ridi{
-    color:white;
     font-size:12px;
 }
+header i:last-child{
+    font-size:14px;
+    margin-right:10px;
+}
 /* classe main container per altezza totale */
-.container-principale{
-    height:100vh;
-}
-/* container vero e proprio del contenuto */
-.container{
-    flex-direction:column;
-    display:flex;
-    height:100vh;
+main{
+    height:calc(100vh - 50px - 70px);
     background-color:black;
-    flex-grow:1;
-}
-.container .container-image{
-    display:flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    
-}
-.immagine{   
-    width:200px;
 }
 
 
