@@ -4,6 +4,24 @@
     padding:0;
     font-family:Arial, Helvetica, sans-serif
 }
+/* classi header */
+header{
+    height:50px;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    align-items:center;
+    background-color:black;
+}
+header .text-inte{
+    color:white;
+    padding-right:20px;
+
+}
+header .ridi{
+    color:white;
+    font-size:12px;
+}
 /* classe main container per altezza totale */
 .container-principale{
     height:100vh;
@@ -22,9 +40,7 @@
     flex-wrap: wrap;
     
 }
-.immagine{
-    flex-grow:1;
-    flex-wrap: wrap;
+.immagine{   
     width:200px;
 }
 
