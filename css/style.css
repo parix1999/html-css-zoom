@@ -16,8 +16,16 @@
     background-color:black;
     flex-grow:1;
 }
-.container .immagine{
-
+.container .container-image{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    
+}
+.immagine{
+    flex-grow:1;
+    flex-wrap: wrap;
+    width:200px;
 }
 
 
