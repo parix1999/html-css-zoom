@@ -39,6 +39,8 @@ main .container-image{
 .container-image .pic-box{
     width:180px;
     height:120px;
+    display:flex;
+    align-items: flex-end;
 }
 .container-image .centratura{
     width:100%;
@@ -51,7 +53,18 @@ main .container-image{
     background-size:cover;
     background-position: center;
 }
-
+.container-image .text-inside{
+    background-color:rgba(0, 255, 0, 0.8);
+    display:inline-block;
+    color:black;
+    font-size:14px;
+    padding:5px;
+}
+.container-image .textinside-2{
+    color:black;
+    font-size:14px;
+    padding:5px;
+}
 
 /* parte sotto con le icone */
 nav{
