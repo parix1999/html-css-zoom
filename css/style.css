@@ -6,7 +6,7 @@
 }
 /* classi header */
 header{
-    height:50px;
+    height:30px;
     display:flex;
     flex-direction:row;
     justify-content:flex-end;
@@ -26,11 +26,28 @@ header i:last-child{
     font-size:14px;
     margin-right:10px;
 }
-/* classe main container per altezza totale */
-main{
-    height:calc(100vh - 50px - 70px);
+/* classi main */
+
+main .container-image{
+    height:calc(100vh - 30px - 70px);
     background-color:black;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding:20px;
 }
+.container-image .pic-box{
+    width:180px;
+    height:120px;
+    border:1px solid white;
+}
+.container-image .centratura{
+    width:100%;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
 
 
 /* parte sotto con le icone */
