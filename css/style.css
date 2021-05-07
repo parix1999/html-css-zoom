@@ -3,9 +3,11 @@
     margin:0;
     padding:0;
 }
+/* classe main container per altezza totale */
 .container-principale{
     height:100vh;
 }
+/* container vero e proprio del contenuto */
 .container{
     flex-direction:column;
     display:flex;
@@ -13,6 +15,12 @@
     background-color:black;
     flex-grow:1;
 }
+.container .immagine{
+
+}
+
+
+/* parte sotto con le icone */
 nav{
     background-color: #222323;
     color:white;
